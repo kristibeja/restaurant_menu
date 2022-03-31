@@ -8,7 +8,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Document</title>
+    <title>Restaurant Menu</title>
 
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +18,18 @@
 <body>
     
 
+    <!-- search bar -->
+    <div class="search-container">
+        <h1 class="menu-title">
+            Kristi's Restaurant Menu
+        </h1>
+        <!-- <div class="search-wrapper"> -->
+            <input id="searchbar" onkeyup="search_menu()" type="text" name="search" placeholder="Search...">
+        <!-- </div> -->
+    </div>
+
+    
+    <!-- MENU -->
     <div class="container">
         <div class="menu">
 
@@ -34,7 +46,7 @@
                             <span class="menu-item-name">Bruschetta</span>
                             <span class="menu-item-price">$12.99</span>
                         </h3>
-                        <p class="menu-item-description">Lorem ipsum dolor.</p>
+                        <p class="menu-item-description">The best bruschettas in town</p>
                     </div>
                 </div>
 
@@ -61,7 +73,6 @@
                         <p class="menu-item-description">Green salad, olives, white cheese, pomodorini, cucumber</p>
                     </div>
                 </div>
-
             </div>
 
 
