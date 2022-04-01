@@ -23,7 +23,7 @@ body{
     padding: 1.5em;
     transition: all .2s;
     color: bisque;
-    text-shadow: 2px -2px 6px black;
+    text-shadow: 0px 0px 15px black;
 }
 .menu-title:hover {
     color: rgb(126, 85, 53);
