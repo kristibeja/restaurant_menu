@@ -11,7 +11,7 @@ function search_menu() {
             menuItem[i].style.display="none";
         }
         else {
-            menuItem[i].style.display="menu-item";                 
+            menuItem[i].style.display="flex";                 
         }
     }
 }
