@@ -46,6 +46,10 @@ body{
     width: 300px;
 }
 
+#searchbar:focus::placeholder{
+    color: transparent;
+}
+
 .search-wrapper {
     position: relative;
     display: inline-block;
